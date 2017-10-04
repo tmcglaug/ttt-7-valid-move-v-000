@@ -14,7 +14,7 @@ else
     if position_taken(board, index) == true
       false
     else
-      
+
       true
 
   end
