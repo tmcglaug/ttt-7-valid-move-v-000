@@ -6,12 +6,15 @@ else
   if index.to_i < 1
     false
 
-else 
+else
   if position_taken(board, index)
     false
   else
     true
-    
+
+  end
+end
+
   end
 end
 
