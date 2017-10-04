@@ -8,10 +8,11 @@ else
   end
 end
 
-  if position_taken(board, index) == true
+test = position_taken(board, index)
+  if test == true
     false
   else
-    if position_taken(board, index) == false
+    if test == false
       true
 
     end
