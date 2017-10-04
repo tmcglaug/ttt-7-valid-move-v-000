@@ -15,10 +15,10 @@ end
 test = position_taken(board, index)
 puts "Value of test: #{test}"
 
-  if position_taken(board, index) == true
+  if position_taken?(board, index) == true
     false
   else
-      if position_taken(board, index) == false
+      if position_taken?(board, index) == false
     true
 end
 end
