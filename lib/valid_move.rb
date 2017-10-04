@@ -8,16 +8,6 @@ else
   end
 end
 
-test = position_taken(board, index)
-  if test == true
-    false
-  else
-    if test == false
-      true
-
-    end
-
-  end
 
 end
 
