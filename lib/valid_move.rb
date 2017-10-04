@@ -3,10 +3,10 @@ def valid_move?(board, index)
 
 
 if index.to_i > 8
-  false
+  puts false
 else
   if index.to_i < 0
-    false
+    puts false
 
 else
 end
@@ -15,13 +15,15 @@ end
 test = position_taken(board, index)
 puts "Value of test: #{test}"
 
-  if position_taken(board, index)
+  if position_taken(board, index) == true
     false
   else
+      if position_taken(board, index) == false
     true
-
-
 end
+end
+
+
 
 
 end
