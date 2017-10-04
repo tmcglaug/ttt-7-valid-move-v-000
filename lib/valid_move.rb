@@ -5,6 +5,13 @@ if index.to_i > 9
 else
   if index.to_i < 1
     false
+
+else 
+  if position_taken(board, index)
+    false
+  else
+    true
+    
   end
 end
 
