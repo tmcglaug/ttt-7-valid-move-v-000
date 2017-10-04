@@ -8,7 +8,7 @@ else
   else
     if position_taken(board, index) == true
       false
-  
+
 
   end
 end
