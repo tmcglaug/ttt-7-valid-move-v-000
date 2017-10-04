@@ -7,15 +7,15 @@ else
     false
 
 else
+end
+end
+  
   if position_taken(board, index)
     false
   else
     true
 
-  end
-end
 
-  end
 end
 
 
