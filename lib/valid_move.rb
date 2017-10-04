@@ -8,7 +8,6 @@ else
   if index.to_i < 1
     false
 
-else
 end
 end
 
