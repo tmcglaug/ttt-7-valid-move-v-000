@@ -12,7 +12,7 @@ else
 end
 end
 
-test = position_taken(board, index)
+test = position_taken?(board, index)
 puts "Value of test: #{test}"
 
   if position_taken?(board, index) == true
