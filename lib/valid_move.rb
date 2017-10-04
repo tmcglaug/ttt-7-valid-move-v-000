@@ -1,18 +1,15 @@
 def valid_move?(board, index)
 
-
-
 if index.to_i > 9
    false
 else
+end
+  
   if index.to_i < 1
     false
-
-end
 end
 
-test = position_taken?(board, index)
-puts "Value of test: #{test}"
+
 
   if position_taken?(board, index) == true
     false
