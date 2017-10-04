@@ -10,6 +10,11 @@ end
 
   if position_taken(board, index) == true
     false
+  else
+    if position_taken(board, index) == false
+      true
+
+    end
 
   end
 
