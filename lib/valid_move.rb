@@ -1,10 +1,10 @@
 def valid_move?(board, index)
 
-if index.to_i > 9
+if index.to_i > 8
    false
 else
 
-  if index.to_i < 1
+  if index.to_i < 0
     false
   else
 
